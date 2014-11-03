@@ -1,0 +1,489 @@
+* {
+   margin:0;
+   padding: 0;
+}
+
+html, body {height: 100%;}
+
+body {
+   margin: 0px auto;
+   width: 1230px;
+   height: auto !important;
+   height: 930px;
+   min-height: 940px;
+   position: relative;
+   background: #ffffff;
+   margin:0px auto;
+}
+
+#head_block {
+ top:0;
+ width: 1100px;
+ margin:0px auto;
+ height: 130px;
+ padding:0em;
+ overflow: hidden;
+} 
+
+#content_div_auth
+{
+ float:left;
+ margin-left:5.1em;
+}
+
+#login_block_na
+{
+ margin:0px auto;
+ padding:0.8em;
+ overflow:hidden;
+ width:310px;
+ border:1px solid #000000;
+}
+
+#new_task_block_na
+{
+ margin:0px auto;
+ padding:0.8em;
+ overflow:hidden;
+ width:310px;
+}
+
+#main_manager_block_link
+{
+ float:left;
+ width:210px;	
+ margin-left:5.2em;
+ height:700px;
+}
+
+#manager_block_link_head
+{
+ float:left;
+ width:210px;	
+ height:20px;
+ background-color: #063970;
+}
+
+#manager_block_link
+{
+ float:left;
+ width:200px;	
+ padding:0.5em;
+ padding-top:0.2em;
+ overflow:hidden;
+}
+
+#manager_block_text
+{
+ float:left;
+ width:849px;	
+ margin-left:0.6em;
+ overflow:hidden;
+}
+
+#manger_find_block
+{
+ float:left;
+ width:849px;	
+ height:60px;
+ overflow:hidden;
+ background-color: #063970;
+}
+#manger_cars_result_block
+{
+ float:left;
+ width:609px;	
+}
+#manger_cars_find_block
+{
+ float:left;
+ width:240px;	
+ overflow:hidden;
+ background-color: #063970;
+}
+
+
+#manager_block_text_child
+{
+ margin:0em;
+ width:850px;
+}
+
+#manger_first_findok_div
+{
+ width:847px;
+ padding-top:0.5em;
+ margin-left:0em;
+ margin-top:0.5em;
+ overflow:hidden;
+}
+
+#manger_second_findok_div
+{
+ width:847px;
+ overflow:hidden;
+}
+
+#manger_findok_pic_div
+{
+ float:left;
+ width:200px;
+ border:1px solid #000000;
+ overflow:hidden;
+}
+
+#manger_findok_pic_head_div
+{
+ width:200px;
+ height:25px;
+ background-color: #063970;
+}
+
+#manger_findok_pic_body_div
+{
+ width:300px;
+ margin-left:0em;
+}
+
+#manager_findok_tab
+{
+ float:left;
+ margin-left:1.28em;
+ width:300px;
+ border:1px solid #000000;
+ background-color: #000000;
+ overflow:hidden;
+}
+
+#manager_findok_tab_head
+{
+ float:left;
+ width:155px;
+ height:25px;
+ overflow:hidden;
+ background-color: #063970;
+ border:1px solid #000000;
+}
+
+#manager_findok_tab_row
+{
+ width:300px;
+ overflow:hidden;
+}
+
+#manager_findok_tab_cell
+{
+ float:left;
+ padding-left:0.3em;
+ width:150px;
+ border:1px solid #000000;
+ background-color: #ffffff;
+ overflow:hidden;
+}
+
+#map_block
+{
+ float: left;
+ width: 310px;
+}
+
+#center_head_block
+{
+ float:left;
+ width: 310px;
+}
+
+#map_image_block
+{
+ float:left;
+ width: 310px;	
+}
+
+#big_map_link_block
+{
+ margin-top:0.2em;
+ float:left;
+ width: 310px;	
+}
+
+#filials_block
+{
+	float: left;
+	margin-left:1.9em;
+	width: 490px;
+	overflow: hidden;
+}
+
+#filials_head_block
+{
+	float: left;
+	width: 530px;
+}
+
+#filials_left_block
+{
+	float: left;
+	width: 70px;
+	margin-bottom: 0.4em;
+}
+
+#filials_right_block
+{
+	float: left;
+	width: 420px;
+	margin-bottom: 0.4em;
+}
+
+.neisp_p{
+ margin-top:0px;
+ margin-bottom:0px;
+ text-align:justify;
+ padding:0.1em;
+}
+
+.neisp_p_right{
+ margin-top:0.6em;
+ margin-bottom:0px;
+ text-align:right;
+}
+
+.content_right_text_font
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+
+.content_left_head_font
+{
+	font-family: Arial;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+}
+
+.content_right_text_font_2
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+}
+
+.content_left_head2_font
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+}
+
+.content_right_head_font
+{
+	font-family: Arial;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #166ba3;
+}
+
+a.content_left_head1_link_font
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #df0024;
+        text-decoration:underline;
+}
+
+a.content_left_head1_link_font:hover
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #df0024;
+        text-decoration:none;
+}
+
+a.big_map_link_font
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+	text-decoration: none;
+}
+
+a.big_map_link_font:hover
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+	text-decoration:underline;
+}
+
+P.inet_magazin_head_p
+{
+ margin-top:0.3em;
+ text-align:center;
+}
+
+P.center_p
+{
+ margin:0em auto;
+ text-align:center;
+ line-height: 0em;
+ padding-bottom:0.5em;
+}
+
+P.inet_magazin_carret_p
+{
+ margin-top:0.3em;
+ text-align:center;
+}
+
+.inet_magaizn_right_block_head_head_font
+{
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+
+.inet_magaizn_link_block_head_font
+{
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.inet_magazin_tovar_box_font
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: bold;
+   color: #05386b;
+   text-decoration:none;
+}
+
+a.inet_magazin_link_box_font
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+        text-decoration:underline;
+}
+
+a.inet_magazin_link_box_font:hover
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #05386b;
+	text-decoration: none;
+}
+
+.findok_result_font
+{
+   font-family: Arial;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: bold;
+   color: #05386b;
+   text-decoration:none;
+}
+
+a.findok_result_result_link_font
+{
+   font-family: Arial;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: bold;
+   color: #ff1200;
+   text-decoration:none;
+}
+
+a.findok_result_result_link_font:hover
+{
+   font-family: Arial;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: bold;
+   color: #05386b;
+   text-decoration:none;
+}
+
+.top15FontStyleDate
+{
+ font-family: Arial;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: bold;
+ color: #05386b;
+ text-decoration: none;
+}
+
+.top15FontStyleNum
+{
+ font-family: Arial;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: bold;
+ color: #ff1200;
+ text-decoration: none;
+}
+
+#oemForm label.required 
+{
+ font-family: Arial;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: bold;
+ color: #ffffff;
+}
+
+#oemForm input.text {width:695px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px; margin-left:0em; margin-bottom:0px;border:1px solid #ccc; height:12px;} 
+#oemForm input.find { margin-left:0.8em; margin-top:0em;padding-top:0em;font:bold 12px/12px verdana,arial,sans-serif; width:100px; height:25px;}
+
+#genstarForm label.required 
+{
+ font-family: Arial;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: bold;
+ color: #ffffff;
+}
+
+#genstarForm input.text {width:695px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px; margin-left:0em; margin-bottom:0px;border:1px solid #ccc; height:12px;} 
+#genstarForm input.find { margin-left:0.8em; margin-top:0em;padding-top:0em;font:bold 12px/12px verdana,arial,sans-serif; width:100px; height:25px;}
+
+#carsForm select {width:210px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:2px;margin:1px 0; margin-bottom:5px;border:1px solid #ccc; }
+
+#carsForm input.find { margin-left:4.8em; margin-top:0em;padding-bottom:0.5em; margin-bottom:1.5em;font:bold 12px/12px verdana,arial,sans-serif; width:100px; height:25px;}
+
+#carsForm label
+{
+ font-family: Arial;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: bold;
+ color: #ffffff;
+}
+
